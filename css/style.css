@@ -1,0 +1,189 @@
+header{
+    background-image: url("../imag/preparacion.jpg");
+}
+
+.barraNav {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navLinks{
+    font-size: 25px;
+}
+
+.navLinksDropdown {
+    font-size: 18px;
+}
+
+.presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    background-image: url("../imag/background\ italiano.jpg");
+    background-size: cover;
+
+}
+.presentacion .item1 {
+    height: 600px;
+    width: auto;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.item2{
+    display: flexs;
+}
+
+.presentacion .item2 {
+    height: 600px ;
+    width: 400px;
+    background-image: url("../imag/1_PERFIL.png");
+    background-size: 30%;
+    margin-bottom: auto;
+    font-size: large;
+    border-radius: 20px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Frijole', cursive;
+    font-family: 'IM Fell English SC', serif;
+    font-family: 'Lemon', cursive;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.presentacion .item2:hover {
+    background: rgb(21, 150, 62);
+    color: white;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../imag/background.jpg");
+    background-size: cover;
+}
+
+.info .texto{
+    background-image: url("../imag/1_PERFIL.png");
+    background-size: 30%;
+    height: 150px;
+    width: 600px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Frijole', cursive;
+    font-family: 'IM Fell English SC', serif;
+    font-family: 'Lemon', cursive;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.info .texto:hover{
+    background:rgb(21, 150, 62);
+    color: white;
+}
+
+.info .imagen {
+    height: 600px;
+    width: 800px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div img {
+    height: 250px;
+    width: auto;
+}
+
+footer div ul {
+    font-family: 'Frijole', cursive;
+    font-family: 'IM Fell English SC', serif;
+    font-family: 'Lemon', cursive;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    font-size: larger;
+    font-weight: bold;
+    color: green;
+}
+
+/* .carousel-inner img {
+    width: 600%;
+    max-height: 800px; 
+}
+ */
+/* .carousel-inner{
+ height: 600px;
+}
+ */
+.nosotrosInfo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+
+
+/* Carta */
+
+main .divH2Carta {
+    text-align: center;
+    background-color: #368327;
+    padding: 30px 0;
+}
+
+main .divH2Carta .h2Carta {
+    color: white;
+    font-size: 65px;
+  
+}
+
+main .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    row-gap: 25px;
+    padding: 40px 0;
+    background-color: #9de094;
+}
+
+
+
+main .grid-item {
+    text-align: center;
+}
+
+main .grid-item img {
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+main .grid-item h3 {
+    font-size: 22px;
+    margin-top: 5px;
+}
