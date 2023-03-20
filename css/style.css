@@ -14,7 +14,9 @@ a:hover {
 header{
     background-image: url("../imag/preparacion.jpg");
 }
-
+.navbar-toggler{
+    background-color:white;
+}
 .barraNav {
     height: 80vh;
     background-repeat: no-repeat;
@@ -65,11 +67,7 @@ header{
     border-radius: 20px;
     margin-left: 15px;
     text-align: center;
-    font-family: 'Frijole', cursive;
     font-family: 'IM Fell English SC', serif;
-    font-family: 'Lemon', cursive;
-    font-family: 'Oxygen', sans-serif;
-    font-family: 'Roboto Serif', serif;
     font-weight: bold;
     font-size: 1.6rem;
     color: black;
@@ -100,11 +98,7 @@ header{
     border-radius: 20px;
     text-align: center;
     margin-top: 15px;
-    font-family: 'Frijole', cursive;
     font-family: 'IM Fell English SC', serif;
-    font-family: 'Lemon', cursive;
-    font-family: 'Oxygen', sans-serif;
-    font-family: 'Roboto Serif', serif;
     color: black;
     font-weight: bold;
     font-size: 1em;
@@ -147,17 +141,10 @@ footer div img {
 
 footer div ul {
     font-family: 'Frijole', cursive;
-    font-family: 'IM Fell English SC', serif;
-    font-family: 'Lemon', cursive;
-    font-family: 'Oxygen', sans-serif;
-    font-family: 'Roboto Serif', serif;
     font-size: 1rem;
     font-weight: bold;
     color: green;
 }
-
-
-
 
 
 /* Carta */
@@ -166,12 +153,14 @@ main .divH2Carta {
     text-align: center;
     background-color: #368327;
     padding: 30px 0;
+    font-family: 'Roboto Serif', serif;
+    color: white;
+    font-size: 40px;
 }
 
 main .divH2Carta .h2Carta {
     color: white;
-    font-size: 65px;
-  
+    font-size: 65px; 
 }
 
 main .grid-container {
@@ -199,18 +188,27 @@ main .grid-item img {
 main .grid-item h3 {
     font-size: 22px;
     margin-top: 5px;
+    font-family: 'Roboto Serif', serif;
 }
 
 main p {
     text-align: center;
     font-weight: bold;
-    
+    font-family: 'IM Fell English SC', serif;
 }
 
 /* Trabaja con nosotros */
 
-.divContacto {
+.divContacto h2{
     text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: bold;   
+}
+
+.divContacto p {
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: bold; 
 }
 
 /* ubicacion */
