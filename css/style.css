@@ -89,7 +89,7 @@ header{
     font-family: 'Roboto Serif', serif;
     color: black;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .info .texto:hover{
@@ -98,8 +98,8 @@ header{
 }
 
 .info .imagen {
-    height: 600px;
-    width: 800px;
+    height: auto;
+    width: 80%;
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -129,15 +129,7 @@ footer div ul {
     color: green;
 }
 
-/* .carousel-inner img {
-    width: 600%;
-    max-height: 800px; 
-}
- */
-/* .carousel-inner{
- height: 600px;
-}
- */
+
 .nosotrosInfo {
     display: flex;
     justify-content: space-evenly;
@@ -188,3 +180,43 @@ main .grid-item h3 {
     margin-top: 5px;
 }
 
+main p {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+/* Trabaja con nosotros */
+
+.divContacto {
+    text-align: center;
+}
+
+/* ubicacion */
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+/* Media Index */
+
+@media (max-width:800px){
+    .info .imagen {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media(max-width:800px){
+    .presentacion{
+        flex-direction: column;
+      
+    }
+}
+
+@media (max-width:800px){
+    .info .texto {
+        width: auto;
+    }
+}

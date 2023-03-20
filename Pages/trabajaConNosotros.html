@@ -54,8 +54,52 @@
           </nav>
      </header>
     
-
-     
+    <!-- Formulario -->
+    <section class="containerForm">
+      <div class="divContacto">
+          <h2>COMPLETÁ EL FORMULARIO PARA ENVIAR TU SOLICITUD</h2>
+          <p>Una vez completado el formulario te enviaremos un e-mail con información detallada para que puedas enterarte propuestas.</p>
+      </div>
+      <div class="container divForm">
+          <form class="row g-3">
+              <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
+              </div>
+              <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" required>
+              </div>
+              <div class="col-12">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" required>
+              </div>
+              <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Que experiencia tiene</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="col-md-4">
+                  <label for="inputState" class="form-label">Seleccione su puesto</label>
+                  <select id="inputState" class="form-select">
+                  <option selected>Cocina</option>
+                  <option>Cajero</option>
+                  <option>Limpieza</option>
+                  <option>Otras</option>
+              </select>
+              </div>
+              <div class="col-12">
+                  <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                      Deseo que me notifiquen sobre futuras busquedas
+                  </label>
+              </div>
+              </div>
+              <div class="col-12">
+                  <button type="submit" class="btn btn-warning mb-5">Enviar</button>
+              </div>
+          </form>
+      </div>
+  </section>
+</main>
      
     <!-- Footer -->
     <footer class="gridContainer">
