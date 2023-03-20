@@ -201,6 +201,8 @@ main p {
     margin-bottom: 10px;
 }
 
+
+
 .mapa {
     display: flex;
     justify-content: center;
@@ -208,7 +210,11 @@ main p {
 
 
 /* Media Index */
-@media (max-width:720px ){
+
+@media (min-width: 1440px) and (max-width: 425px) {
+}
+
+@media (max-width:800px ){
     .barraNav{
         height: 20vh;
     }
