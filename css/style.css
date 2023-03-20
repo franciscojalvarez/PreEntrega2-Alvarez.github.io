@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Lato', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline white;
+}
+
 header{
     background-image: url("../imag/preparacion.jpg");
 }
@@ -11,6 +24,10 @@ header{
 
 .navLinks{
     font-size: 25px;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
 }
 
 .navLinksDropdown {
@@ -105,6 +122,15 @@ header{
     margin-top: 20px;
 }
 
+.nosotrosInfo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+
+/* Footer */
 .gridContainer{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -125,19 +151,13 @@ footer div ul {
     font-family: 'Lemon', cursive;
     font-family: 'Oxygen', sans-serif;
     font-family: 'Roboto Serif', serif;
-    font-size: larger;
+    font-size: 1rem;
     font-weight: bold;
     color: green;
 }
 
 
-.nosotrosInfo {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 30px;
-   
-}
+
 
 
 /* Carta */
@@ -201,14 +221,35 @@ main p {
     margin-bottom: 10px;
 }
 
+.boton {
+    font-weight: 700;
+    color: black;
+    border: 3px solid ;
+    border-radius: 30px;
+    padding: 10px;
+}
+
 
 
 .mapa {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
+/* Contacto */
 
+.contacto {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.fa-brands{
+    font-weight: 900;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 /* Media Index */
 
 @media (min-width: 1440px) and (max-width: 425px) {
@@ -218,16 +259,12 @@ main p {
     .barraNav{
         height: 20vh;
     }
-}
 
-@media (max-width:800px){
     .info .imagen {
         width: 400px;
         height: auto;
     }
-}
 
-@media(max-width:800px){
     .presentacion{
         flex-direction: column;
       
@@ -250,3 +287,4 @@ main p {
         padding: 0 20px;
     }
 }
+
