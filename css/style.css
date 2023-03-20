@@ -6,6 +6,7 @@ header{
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
 }
 
 .navLinks{
@@ -207,6 +208,11 @@ main p {
 
 
 /* Media Index */
+@media (max-width:720px ){
+    .barraNav{
+        height: 20vh;
+    }
+}
 
 @media (max-width:800px){
     .info .imagen {
@@ -226,5 +232,15 @@ main p {
     .info .texto {
         width: 400px;
         height: 300px;
+    }
+}
+
+/* Media carta */
+
+@media (max-width: 768px) {
+    main .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        padding: 0 20px;
     }
 }
