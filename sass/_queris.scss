@@ -1,0 +1,38 @@
+/* Media Index */
+
+@media (min-width: 1440px) and (max-width: 425px) {
+}
+
+@media (max-width:800px ){
+    .barraNav{
+        height: 20vh;
+    }
+
+    .info .imagen {
+        width: 400px;
+        height: auto;
+    }
+
+    .presentacion{
+        flex-direction: column;
+      
+    }
+}
+
+@media (max-width:600px){
+    .info .texto {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+/* Media carta */
+
+@media (max-width: 768px) {
+    main .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        padding: 0 20px;
+    }
+}
+
