@@ -23,28 +23,28 @@
         margin-bottom: 15px;
         }
 
-            .item2{
-                display: flexs;
-                height: 600px ;
-                width: 400px;
-                background-image: url("../imag/1_PERFIL.png");
-                background-size: 30%;
-                margin-bottom: auto;
-                font-size: large;
-                border-radius: 20px;
-                margin-left: 15px;
-                text-align: center;
-                font-family: 'IM Fell English SC', serif;
-                font-weight: bold;
-                font-size: 1.6rem;
-                color: black;
-                margin-top: 15px;
-                margin-bottom: 15px;
+        .item2{
+            display: flexs;
+            height: 600px ;
+            width: 400px;
+            background-image: url("../imag/1_PERFIL.png");
+            background-size: 30%;
+            margin-bottom: auto;
+            font-size: large;
+            border-radius: 20px;
+            margin-left: 15px;
+            text-align: center;
+            font-family: 'IM Fell English SC', serif;
+            font-weight: bold;
+            font-size: 1.6rem;
+            color: black;
+            margin-top: 15px;
+            margin-bottom: 15px;
+                &:hover {
+                    background: rgb(21, 150, 62);
+                    color: white;
+                    }
                 }
-                    .item2:hover {
-                        background: rgb(21, 150, 62);
-                        color: white;
-                        }
         }
 
 .info{
@@ -66,17 +66,17 @@
         color: black;
         font-weight: bold;
         font-size: 1em;
+        &:hover{
+            background:rgb(21, 150, 62);
+            color: white;
+        }
     }
-            .texto:hover{
-                background:rgb(21, 150, 62);
-                color: white;
+            .imagen {
+                height: 60%;
+                width: 40%;
+                border-radius: 20px;
+                margin-top: 20px;
             }
-                .imagen {
-                    height: 60%;
-                    width: 40%;
-                    border-radius: 20px;
-                    margin-top: 20px;
-                }
 }
 
 .nosotrosInfo {
@@ -115,25 +115,24 @@ main {
     }
     .grid-item {
         text-align: center;
-    }
-    .grid-item img {
-        border: 3px solid white;
-        border-radius: 20px;
-    }
+        img {
+            border: 3px solid white;
+            border-radius: 20px;
+            }
 
-    .grid-item h3 {
-        font-size: 22px;
-        margin-top: 5px;
-        font-family: 'Roboto Serif', serif;
-    }
+         h3 {
+            font-size: 22px;
+            margin-top: 5px;
+            font-family: 'Roboto Serif', serif;
+        }
 
-    p {
-        text-align: center;
-        font-weight: bold;
-        font-family: 'IM Fell English SC', serif;
+        p {
+            text-align: center;
+            font-weight: bold;
+            font-family: 'IM Fell English SC', serif;
+        }
     }
 }
-
 // Trabaja con nosotros 
 
 .divContacto {
